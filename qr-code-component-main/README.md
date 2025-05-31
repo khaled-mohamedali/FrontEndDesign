@@ -24,7 +24,7 @@ In this Challenge I build a simple Qr code Card
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/khaled-mohamedali/FrontEndDesign/tree/main/qr-code-component-main)
+- Solution URL: [Git](https://github.com/khaled-mohamedali/FrontEndDesign/tree/main/qr-code-component-main)
 
 ## My process
 
@@ -45,6 +45,7 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+```
 
 
 ## Author
