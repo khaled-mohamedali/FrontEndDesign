@@ -1,0 +1,40 @@
+body {
+  background: #d5e1ef;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qrCard {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.description {
+  opacity: 0.5;
+  text-align: center;
+  font-size: 20px;
+}
