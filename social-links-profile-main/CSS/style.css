@@ -4,6 +4,11 @@
   /* line-height: 1.5;s */
 }
 
+a {
+  text-decoration: none;
+  color: var(--color-acent);
+}
+
 body {
   background-color: #141414;
   display: flex;
@@ -21,6 +26,7 @@ main {
 .social-link-card {
   width: 100%;
   max-width: 17rem;
+  height: auto;
   background: #1f1f1f;
   color: aliceblue;
   padding: 2rem;
@@ -32,6 +38,9 @@ main {
 }
 img {
   max-width: 4rem;
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
   border-radius: 2rem;
 }
 
@@ -57,7 +66,7 @@ ul {
 }
 
 .btn {
-  width: 15rem;
+  width: 17rem;
   font-weight: 600;
   padding: 0.5rem 2rem;
   white-space: nowrap;
@@ -69,7 +78,8 @@ ul {
   color: white;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: #c5f72c;
   color: black;
 }
